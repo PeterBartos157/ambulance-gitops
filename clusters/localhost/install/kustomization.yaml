@@ -9,6 +9,3 @@ labels:
 
 resources:
 - ../../../apps/cv1pb-ambulance-ufe
-
-components:
-- ../../../components/version-developers

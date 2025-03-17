@@ -4,14 +4,11 @@ kind: Kustomization
 labels:
 - pairs:
     app.kubernetes.io/part-of: wac-hospital
+    app.kubernetes.io/name: cv1pb-ambulance-wl
 
 namespace: wac-hospital
 
 resources:
-- prepare.kustomization.yaml
 - cd.kustomization.yaml
 - install.kustomization.yaml
 - git-repository.yaml
-- ambulance-ufe.image-repository.yaml
-- ambulance-ufe.image-policy.yaml
-- image-update-automation.yaml

@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/cv1pb-ambulance-ufe
+- ../../../apps/cv1pb-ambulance-webapi
 
 
 components:
